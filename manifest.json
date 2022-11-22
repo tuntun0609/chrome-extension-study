@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "My Extension",
+  "version": "0.0.1",
+  "description": "插件描述",
+  "author": "tuntun",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"options_ui": {
+		"page": "options.html",
+		"open_in_tab": true
+	},
+	"host_permissions": [
+		"https://*/*"
+	],
+	"permissions": [],
+	"action": {
+		"default_icon": {
+			"16": "img/icon.png",
+			"32": "img/icon.png",
+			"48": "img/icon.png",
+			"64": "img/icon.png",
+			"128": "img/icon.png"
+		},
+		"default_popup": "popup.html"
+	},
+	"icons": {
+		"16": "img/icon.png",
+		"32": "img/icon.png",
+		"48": "img/icon.png",
+		"64": "img/icon.png",
+		"128": "img/icon.png"
+	}
+}
