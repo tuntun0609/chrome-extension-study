@@ -4,13 +4,13 @@
   "version": "0.0.1",
   "description": "插件描述",
   "author": "tuntun",
-	"host_permissions": [
-		"https://*/*"
-	],
-	"content_scripts": [ // 配置content scripts
+	"background": {
+		"service_worker": "background.js"
+	},
+	"content_scripts": [
 		{
 			"matches": [
-				"*://www.bilibili.com/*"
+				"*://www.baidu.com/*"
 			],
 			"js": [
 				"content-script.js"
@@ -20,7 +20,12 @@
 			]
 		}
 	],
-	"permissions": [],
+	"host_permissions": [
+		"https://*/*"
+	],
+	"permissions": [
+		"scripting"
+	],
 	"action": {
 		"default_icon": {
 			"16": "img/icon.png",
