@@ -5,7 +5,7 @@ console.log(document.querySelector('#su')?.value);
 
 const myJSONStringify = JSON.stringify;
 JSON.stringify = (obj) => {
-	console.log('you use JSON.stringify');
+	console.log('you are using JSON.stringify');
 	return myJSONStringify(obj);
 }
 

@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Extension",
+  "name": "My Extension Message Test",
   "version": "0.0.1",
-  "description": "content_scripts",
+  "description": "message",
   "author": "tuntun",
 	"background": {
 		"service_worker": "background.js"
@@ -14,18 +14,13 @@
 			],
 			"js": [
 				"content-script.js"
-			],
-			"css": [
-				"insert-css.css"
 			]
 		}
 	],
 	"host_permissions": [
 		"https://*/*"
 	],
-	"permissions": [
-		"scripting"
-	],
+	"permissions": [],
 	"action": {
 		"default_icon": {
 			"16": "img/icon.png",

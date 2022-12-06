@@ -8,7 +8,7 @@ chrome.action.onClicked.addListener(async (tab) => {
 			},
       files: ['exec.js'],
 			// func: function
-			// world: 'MAIN'
+			world: 'MAIN'
     },)
 	} else {
 		console.log('this is not baidu page');
