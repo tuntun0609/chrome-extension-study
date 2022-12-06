@@ -28,7 +28,6 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 chrome.runtime.onConnect.addListener((port) => {
 	console.log(port);
 	port.onMessage.addListener(async (msg) => {
-		console.log(msg);
 		if (msg.cs === 'post message') {
 			port.postMessage({ bg: '你想要干什么？' });
 		} else if (msg.cs === '我想要获取mock的值') {
