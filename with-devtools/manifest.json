@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "with-devtools",
+  "version": "0.0.1",
+  "description": "with-devtools",
+  "author": "tuntun",
+	"devtools_page": "devtools.html",
+	"host_permissions": [
+		"https://*/*"
+	],
+	"permissions": [],
+	"action": {
+		"default_icon": {
+			"16": "img/icon.png",
+			"32": "img/icon.png",
+			"48": "img/icon.png",
+			"64": "img/icon.png",
+			"128": "img/icon.png"
+		},
+	},
+	"icons": {
+		"16": "img/icon.png",
+		"32": "img/icon.png",
+		"48": "img/icon.png",
+		"64": "img/icon.png",
+		"128": "img/icon.png"
+	}
+}
