@@ -22,6 +22,7 @@
 			port.postMessage({ cs: '我想要获取mock的值' });
 		} else if (msg.bg === '给你mock的值') {
 			console.log({ cs: '谢谢background' });
+			console.log(msg.data);
 			port.postMessage({ cs: '谢谢background' });
 		}
 	});
