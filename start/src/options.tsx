@@ -1,11 +1,5 @@
-import React from 'react';
-import { useStorage } from "@plasmohq/storage/hook"
-
-const Options = () => {
-	console.log('options');
-	return (
-		<div>options</div>
-	);
-};
+const Options = () => (
+	<div>options plasmo</div>
+)
 
 export default Options;
